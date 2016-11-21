@@ -4,7 +4,7 @@
 import React, {Component} from 'react'
 
 class Comment extends Component {
-
+    //конструктор лишний, а вообще лучше переписать в виде функции
     constructor() {
         super();
     }
