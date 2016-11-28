@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import Comment from './Comment'
 import toggleOpen from '../decorators/toggleOpen'
-
+//а форму для нового коммента ты не сделал?
 class CommentList extends Component {
     static propTypes = {
         comments: PropTypes.array.isRequired,
